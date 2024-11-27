@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logbar-left{
+    display: flex;
+    height: 80px;
+    align-items: center;
+    text-align: center;
+    justify-content: left;
+    background-color: coral;
+}
+
+.nav{
+    display: flex;
+    text-align: center;
+    height: 100%;
+    padding: 30px 10px;
+    border-bottom: 2px solid black;
+    border-radius: 1px;
+}
+
+.jumbotron{
+    height: 600px;
+    width: 100%;
+    background-color: cadetblue;
+}
