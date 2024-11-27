@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .logbar-left{
     display: flex;
     height: 80px;
@@ -23,7 +27,34 @@
 }
 
 .jumbotron{
+    display: flex;
     height: 600px;
     width: 100%;
+    position: relative;
     background-color: cadetblue;
+}
+
+.cap-title{
+    font-size: 36px;
+    font-weight: bold;
+    width: 70%;
+    height: 25%;
+    position: absolute;
+    top: 80px;
+    left: 200px;
+    z-index: 1;
+    /* DEBUG */
+    background-color: gray;
+}
+
+.abstract{
+    font-size: 14px;
+    width: 20%;
+    height: 30%;
+    position: absolute;
+    top: 250px;
+    left: 200px;
+    z-index: 1;
+    /* DEBUG */
+    background-color: bisque;
 }
