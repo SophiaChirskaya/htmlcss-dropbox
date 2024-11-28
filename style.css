@@ -47,10 +47,12 @@ body{
     background-color: gray;
 }
 
-.abstract{
-    font-size: 14px;
+.info-block{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
     width: 20%;
-    height: 30%;
+    height: 50%;
     position: absolute;
     top: 250px;
     left: 200px;
@@ -58,3 +60,72 @@ body{
     /* DEBUG */
     background-color: bisque;
 }
+
+.text-start{
+    width: 100%;
+    font-size: 16px;
+    /* DEBUG */
+    background-color: chocolate;
+    height: 180px;
+}
+
+.text{
+    width: 80%;
+    font-size: 16px;
+    /* DEBUG */
+    background-color: chocolate;
+    height: 40px;
+}
+
+.blue-link{
+    width: 80%;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+#jumbo{
+    width: 45%;
+    position: absolute;
+    z-index: 2;
+    top: 250px;
+    left: 520px;
+    background-image: url(./img/jumbo.png);
+    background-size: contain;
+    /* DEBUG */
+    background-color: blue;
+    height: 400px;
+}
+
+.main-title{
+    font-size: 24px;
+    font-weight: bold;
+    width: 50%;
+    z-index: 1;
+    /* DEBUG */
+    background-color: gray;
+    height: 40px;
+}
+
+.columns{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    /* DEBUG */
+    height: 560px;
+    background-color: azure;
+}
+
+.column{
+    width: 25%;
+    /* DEBUG */
+    background-color: cornsilk;
+}
+.title-box{
+    width: 100%;
+    /* DEBUG */
+    background-color: brown;
+}
+
