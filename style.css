@@ -5,26 +5,25 @@
 }
 
 body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1,5;
+
 }
 
-.logbar-left{
-    display: flex;
-    height: 80px;
-    align-items: center;
-    text-align: center;
-    justify-content: left;
-    background-color: coral;
+ul li{
+    list-style-type: none;
 }
 
-.nav{
-    display: flex;
-    text-align: center;
-    height: 100%;
-    padding: 30px 10px;
-    border-bottom: 2px solid black;
-    border-radius: 1px;
+a{
+    text-decoration: none;
+    color: black;
 }
+
+a:hover{
+    text-decoration: underline;
+}
+
+
 
 .jumbotron{
     display: flex;
@@ -32,6 +31,7 @@ body{
     width: 100%;
     position: relative;
     background-color: cadetblue;
+    margin-bottom: 120px;
 }
 
 .cap-title{
@@ -87,7 +87,7 @@ body{
 }
 
 #jumbo{
-    width: 45%;
+    width: 50%;
     position: absolute;
     z-index: 2;
     top: 250px;
@@ -100,6 +100,7 @@ body{
 }
 
 .main-title{
+    margin-top: 120px;
     font-size: 24px;
     font-weight: bold;
     width: 50%;
@@ -107,11 +108,13 @@ body{
     /* DEBUG */
     background-color: gray;
     height: 40px;
+    margin-bottom: 120px;
 }
 
 .columns{
     width: 80%;
     display: flex;
+    
     justify-content: space-between;
     /* DEBUG */
     height: 560px;
